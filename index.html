@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exobiology Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exobiology Catalog</h1>
+        <table id="exoplanets">
+            <tr><th>Planet</th><th>Star System</th><th>Distance (ly)</th><th>Detected Compounds</th></tr>
+            <tr><td>Kepler-442b</td><td>Kepler-442</td><td>1206</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>TOI-700d</td><td>TOI-700</td><td>101.5</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TRAPPIST-1e</td><td>TRAPPIST-1</td><td>39</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>Kepler-186f</td><td>Kepler-186</td><td>582</td><td>Water, Nitrogen, Carbon Dioxide</td></tr>
+            <tr><td>Proxima Centauri b</td><td>Proxima Centauri</td><td>4.2</td><td>Oxygen, Nitrogen</td></tr>
+            <tr><td>WASP-121b</td><td>WASP-121</td><td>880</td><td>Water, Carbon Monoxide</td></tr>
+            <tr><td>K2-18b</td><td>K2-18</td><td>124</td><td>Water, Methane, Ammonia</td></tr>
+            <tr><td>LHS 1140b</td><td>LHS 1140</td><td>49</td><td>Oxygen, Water, Carbon Dioxide</td></tr>
+            <tr><td>HD 189733b</td><td>HD 189733</td><td>63</td><td>Methane, Water</td></tr>
+            <tr><td>GJ 1214b</td><td>GJ 1214</td><td>48</td><td>Water, Hydrogen</td></tr>
+            <tr><td>Kepler-452b</td><td>Kepler-452</td><td>1402</td><td>Methane, Oxygen</td></tr>
+            <tr><td>HD 209458b</td><td>HD 209458</td><td>159</td><td>Sodium, Water</td></tr>
+            <tr><td>WASP-39b</td><td>WASP-39</td><td>700</td><td>Carbon Dioxide, Water</td></tr>
+            <tr><td>GJ 436b</td><td>GJ 436</td><td>33</td><td>Methane, Carbon Monoxide</td></tr>
+            <tr><td>K2-3d</td><td>K2-3</td><td>147</td><td>Water, Nitrogen</td></tr>
+            <tr><td>PSR B1257+12 A</td><td>PSR B1257+12</td><td>2300</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 40307g</td><td>HD 40307</td><td>42</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-62f</td><td>Kepler-62</td><td>990</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>HAT-P-11b</td><td>HAT-P-11</td><td>124</td><td>Water, Methane</td></tr>
+            <tr><td>GJ 667Cc</td><td>GJ 667C</td><td>22</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>55 Cancri e</td><td>55 Cancri</td><td>41</td><td>Carbon Dioxide, Hydrogen</td></tr>
+            <tr><td>HD 219134b</td><td>HD 219134</td><td>21</td><td>Oxygen, Carbon Dioxide</td></tr>
+            <tr><td>Kepler-1649c</td><td>Kepler-1649</td><td>300</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>WASP-12b</td><td>WASP-12</td><td>871</td><td>Carbon, Hydrogen</td></tr>
+            <tr><td>TOI-1338b</td><td>TOI-1338</td><td>1300</td><td>Helium, Hydrogen</td></tr>
+            <tr><td>HD 85512b</td><td>HD 85512</td><td>36</td><td>Oxygen, Water</td></tr>
+            <tr><td>Kepler-22b</td><td>Kepler-22</td><td>638</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>GJ 3470b</td><td>GJ 3470</td><td>29</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TRAPPIST-1d</td><td>TRAPPIST-1</td><td>39</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>Teegarden's Star b</td><td>Teegarden's Star</td><td>12.5</td><td>Methane, Nitrogen</td></tr>
+            <tr><td>Kepler-16b</td><td>Kepler-16</td><td>196</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Tau Ceti e</td><td>Tau Ceti</td><td>11.9</td><td>Oxygen, Water, Methane</td></tr>
+            <tr><td>TrES-2b</td><td>TrES-2</td><td>718</td><td>Hydrogen, Carbon Monoxide</td></tr>
+            <tr><td>CoRoT-7b</td><td>CoRoT-7</td><td>489</td><td>Sodium, Potassium</td></tr>
+            <tr><td>WASP-17b</td><td>WASP-17</td><td>1300</td><td>Water, Sodium</td></tr>
+            <tr><td>EPIC 201367065d</td><td>EPIC 201367065</td><td>147</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>HD 97658b</td><td>HD 97658</td><td>69</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 1132b</td><td>GJ 1132</td><td>39</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-9d</td><td>Kepler-9</td><td>2100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 189733b</td><td>HD 189733</td><td>63</td><td>Water, Methane</td></tr>
+            <tr><td>WASP-80b</td><td>WASP-80</td><td>163</td><td>Methane, Ammonia</td></tr>
+            <tr><td>HIP 41378f</td><td>HIP 41378</td><td>336</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>Wolf 1061c</td><td>Wolf 1061</td><td>14</td><td>Carbon Dioxide, Water</td></tr>
+            <tr><td>K2-72e</td><td>K2-72</td><td>217</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TRAPPIST-1f</td><td>TRAPPIST-1</td><td>39</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>YZ Ceti b</td><td>YZ Ceti</td><td>12</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-37b</td><td>Kepler-37</td><td>209</td><td>Sodium, Potassium</td></tr>
+            <tr><td>HD 106315c</td><td>HD 106315</td><td>357</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>GJ 357d</td><td>GJ 357</td><td>31</td><td>Oxygen, Water</td></tr>
+            <tr><td>WASP-31b</td><td>WASP-31</td><td>1200</td><td>Water, Sodium</td></tr>
+            <tr><td>HD 3167c</td><td>HD 3167</td><td>150</td><td>Methane, Water</td></tr>
+            <tr><td>GJ 1214b</td><td>GJ 1214</td><td>48</td><td>Hydrogen, Water</td></tr>
+            <tr><td>Kepler-1625b-i</td><td>Kepler-1625</td><td>8000</td><td>Hydrogen, Methane</td></tr>
+            <tr><td>HD 17156b</td><td>HD 17156</td><td>255</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>K2-141b</td><td>K2-141</td><td>202</td><td>Sodium, Potassium</td></tr>
+            <tr><td>GJ 3293d</td><td>GJ 3293</td><td>59</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>HAT-P-26b</td><td>HAT-P-26</td><td>437</td><td>Water, Methane</td></tr>
+            <tr><td>TOI-849b</td><td>TOI-849</td><td>730</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-445c</td><td>Kepler-445</td><td>293</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>LHS 3844b</td><td>LHS 3844</td><td>49</td><td>Silicates, Iron</td></tr>
+            <tr><td>L 98-59d</td><td>L 98-59</td><td>35</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TOI-270d</td><td>TOI-270</td><td>73</td><td>Water, Nitrogen</td></tr>
+            <tr><td>HD 21749b</td><td>HD 21749</td><td>53</td><td>Methane, Water</td></tr>
+            <tr><td>Kepler-68c</td><td>Kepler-68</td><td>295</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>Gliese 876d</td><td>Gliese 876</td><td>15</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-283c</td><td>Kepler-283</td><td>1705</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>WASP-6b</td><td>WASP-6</td><td>1000</td><td>Sodium, Potassium</td></tr>
+            <tr><td>HD 97658b</td><td>HD 97658</td><td>70</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-25b</td><td>K2-25</td><td>147</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 9827d</td><td>GJ 9827</td><td>100</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TRAPPIST-1b</td><td>TRAPPIST-1</td><td>39</td><td>Carbon Dioxide, Water</td></tr>
+            <tr><td>KELT-9b</td><td>KELT-9</td><td>670</td><td>Iron, Titanium</td></tr>
+            <tr><td>Kepler-48d</td><td>Kepler-48</td><td>1177</td><td>Water, Methane</td></tr>
+            <tr><td>GJ 357b</td><td>GJ 357</td><td>31</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 213885b</td><td>HD 213885</td><td>156</td><td>Iron, Silicates</td></tr>
+            <tr><td>WASP-62b</td><td>WASP-62</td><td>587</td><td>Water, Sodium</td></tr>
+            <tr><td>Kepler-20f</td><td>Kepler-20</td><td>929</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>Proxima Centauri c</td><td>Proxima Centauri</td><td>4.2</td><td>Methane, Water</td></tr>
+            <tr><td>TOI-1338b</td><td>TOI-1338</td><td>1300</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HAT-P-2b</td><td>HAT-P-2</td><td>440</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-132b</td><td>TOI-132</td><td>180</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-107b</td><td>WASP-107</td><td>200</td><td>Methane, Water</td></tr>
+            <tr><td>GJ 1132b</td><td>GJ 1132</td><td>39</td><td>Hydrogen, Sodium</td></tr>
+            <tr><td>WASP-166b</td><td>WASP-166</td><td>300</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LHS 1815b</td><td>LHS 1815</td><td>97</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>K2-138g</td><td>K2-138</td><td>600</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>GJ 9827c</td><td>GJ 9827</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 3167b</td><td>HD 3167</td><td>150</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1229b</td><td>Kepler-1229</td><td>770</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>HAT-P-67b</td><td>HAT-P-67</td><td>1043</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Gliese 486b</td><td>Gliese 486</td><td>26.3</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-564b</td><td>TOI-564</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-78b</td><td>Kepler-78</td><td>400</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-178f</td><td>TOI-178</td><td>205</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TOI-220b</td><td>TOI-220</td><td>290</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-51b</td><td>Kepler-51</td><td>2615</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-257b</td><td>TOI-257</td><td>250</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 832c</td><td>GJ 832</td><td>16.1</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>HD 219134c</td><td>HD 219134</td><td>21</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1634b</td><td>TOI-1634</td><td>114</td><td>Iron, Silicates</td></tr>
+            <tr><td>GJ 9827b</td><td>GJ 9827</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 15337c</td><td>HD 15337</td><td>150</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-824b</td><td>TOI-824</td><td>210</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 251b</td><td>GJ 251</td><td>30</td><td>Methane, Oxygen</td></tr>
+            <tr><td>WASP-76b</td><td>WASP-76</td><td>634</td><td>Iron, Sodium</td></tr>
+            <tr><td>K2-229b</td><td>K2-229</td><td>339</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1235b</td><td>TOI-1235</td><td>143</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-160d</td><td>Kepler-160</td><td>3144</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>GJ 357c</td><td>GJ 357</td><td>31</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>AU Mic b</td><td>AU Microscopii</td><td>32</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-421c</td><td>TOI-421</td><td>245</td><td>Water, Methane</td></tr>
+            <tr><td>Kepler-22c</td><td>Kepler-22</td><td>619</td><td>Methane, Oxygen</td></tr>
+            <tr><td>Kepler-296e</td><td>Kepler-296</td><td>737</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>WASP-79b</td><td>WASP-79</td><td>810</td><td>Water, Hydrogen</td></tr>
+            <tr><td>HD 80606b</td><td>HD 80606</td><td>190</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Gliese 3470b</td><td>Gliese 3470</td><td>30.7</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 21749c</td><td>HD 21749</td><td>53</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1266c</td><td>TOI-1266</td><td>120</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TRAPPIST-1c</td><td>TRAPPIST-1</td><td>39</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>K2-266b</td><td>K2-266</td><td>470</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-705b</td><td>Kepler-705</td><td>899</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TOI-793b</td><td>TOI-793</td><td>312</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 97658b</td><td>HD 97658</td><td>69</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-72c</td><td>Kepler-72</td><td>1165</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>Kepler-120c</td><td>Kepler-120</td><td>2529</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1685b</td><td>TOI-1685</td><td>122</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 106315b</td><td>HD 106315</td><td>357</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-146c</td><td>K2-146</td><td>259</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-178b</td><td>WASP-178</td><td>1350</td><td>Iron, Titanium</td></tr>
+            <tr><td>K2-290c</td><td>K2-290</td><td>897</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1649c</td><td>Kepler-1649</td><td>301</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>HD 97658b</td><td>HD 97658</td><td>69</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>55 Cancri b</td><td>55 Cancri</td><td>41</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 1252b</td><td>GJ 1252</td><td>66</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler T-D-17b</td><td>Kepler T-D-17</td><td>902</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-39b</td><td>WASP-39</td><td>700</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>TOI-125c</td><td>TOI-125</td><td>373</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LTT 1445Ab</td><td>LTT 1445A</td><td>22</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-39b</td><td>Kepler-39</td><td>3560</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HAT-P-3b</td><td>HAT-P-3</td><td>451</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP A-52c</td><td>WASP A-52</td><td>617</td><td>Methane, Oxygen</td></tr>
+            <tr><td>CoRoT-24c</td><td>CoRoT-24</td><td>1754</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>KOI-351g</td><td>KOI-351</td><td>2554</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>L 98-59c</td><td>L 98-59</td><td>35</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 219134f</td><td>HD 219134</td><td>21</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>Epsilon Eridani b</td><td>Epsilon Eridani</td><td>10.5</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 20794c</td><td>HD 20794</td><td>20</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-445b</td><td>Kepler-445</td><td>293</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 3512b</td><td>GJ 3512</td><td>31</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 15337b</td><td>HD 15337</td><td>150</td><td>Iron, Silicates</td></tr>
+            <tr><td>WASP-76b</td><td>WASP-76</td><td>634</td><td>Iron, Sodium</td></tr>
+            <tr><td>ToI-451b</td><td>ToI-451</td><td>400</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-90b</td><td>Kepler-90</td><td>2545</td><td>Iron, Silicates</td></tr>
+            <tr><td>GJ 3293b</td><td>GJ 3293</td><td>59</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-93b</td><td>K2-93</td><td>326</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-270c</td><td>TOI-270</td><td>73</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-121b</td><td>WASP-121</td><td>880</td><td>Iron, Magnesium</td></tr>
+            <tr><td>GJ 667Ce</td><td>GJ 667C</td><td>22</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>WASP-160B b</td><td>WASP-160B</td><td>1000</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-138e</td><td>K2-138</td><td>600</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-82f</td><td>Kepler-82</td><td>2732</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>NGTS-11b</td><td>NGTS-11</td><td>622</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>AU Mic c</td><td>AU Microscopii</td><td>32</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-107b</td><td>WASP-107</td><td>212</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Teegarden b</td><td>Teegarden's Star</td><td>12.5</td><td>Methane, Nitrogen, Oxygen</td></tr>
+            <tr><td>TOI-1235b</td><td>TOI-1235</td><td>143</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 136352c</td><td>HD 136352</td><td>57</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-186c</td><td>Kepler-186</td><td>582</td><td>Iron, Silicates</td></tr>
+            <tr><td>WASP-189b</td><td>WASP-189</td><td>326</td><td>Iron, Titanium</td></tr>
+            <tr><td>TOI-700c</td><td>TOI-700</td><td>101.5</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-138d</td><td>Kepler-138</td><td>929</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>Kepler-437b</td><td>Kepler-437</td><td>2892</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 1061d</td><td>GJ 1061</td><td>12</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>K2-18c</td><td>K2-18</td><td>124</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HAT-P-12b</td><td>HAT-P-12</td><td>465</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1649b</td><td>Kepler-1649</td><td>301</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 260655b</td><td>HD 260655</td><td>32</td><td>Iron, Silicates</td></tr>
+            <tr><td>TRAPPIST-1g</td><td>TRAPPIST-1</td><td>39</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1246c</td><td>TOI-1246</td><td>737</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-12c</td><td>WASP-12</td><td>871</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Gliese 849b</td><td>Gliese 849</td><td>29</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-561b</td><td>TOI-561</td><td>280</td><td>Iron, Silicates</td></tr>
+            <tr><td>Pi Mensae c</td><td>Pi Mensae</td><td>59</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-167e</td><td>Kepler-167</td><td>1003</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-178b</td><td>TOI-178</td><td>205</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-88c</td><td>Kepler-88</td><td>1178</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1652b</td><td>Kepler-1652</td><td>832</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>TOI-1088b</td><td>TOI-1088</td><td>574</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-452c</td><td>Kepler-452</td><td>1402</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>HD 93396b</td><td>HD 93396</td><td>312</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-442c</td><td>Kepler-442</td><td>1206</td><td>Methane, Oxygen</td></tr>
+            <tr><td>WASP-43b</td><td>WASP-43</td><td>260</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>EPIC 249893012c</td><td>EPIC 249893012</td><td>897</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1229c</td><td>Kepler-1229</td><td>769</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>HAT-P-18b</td><td>HAT-P-18</td><td>542</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1801b</td><td>TOI-1801</td><td>419</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>OGLE-2005-BLG-390Lb</td><td>OGLE-2005-BLG-390L</td><td>21526</td><td>Water, Methane</td></tr>
+            <tr><td>GJ 887c</td><td>GJ 887</td><td>10.7</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-451c</td><td>TOI-451</td><td>400</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>L 168-9b</td><td>L 168-9</td><td>81</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 219134e</td><td>HD 219134</td><td>21</td><td>Methane, Oxygen</td></tr>
+            <tr><td>K2-24c</td><td>K2-24</td><td>518</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-52b</td><td>WASP-52</td><td>457</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1201b</td><td>TOI-1201</td><td>122</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>K2-3c</td><td>K2-3</td><td>147</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-296f</td><td>Kepler-296</td><td>737</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>TOI-270b</td><td>TOI-270</td><td>73</td><td>Iron, Silicates</td></tr>
+            <tr><td>HIP 65Ab</td><td>HIP 65A</td><td>139</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HR 858c</td><td>HR 858</td><td>105</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1130c</td><td>TOI-1130</td><td>525</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-68b</td><td>Kepler-68</td><td>295</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 3167c</td><td>HD 3167</td><td>150</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-421b</td><td>TOI-421</td><td>245</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LP 890-9c</td><td>LP 890-9</td><td>105</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>TRAPPIST-1h</td><td>TRAPPIST-1</td><td>39</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>EPIC 246471491b</td><td>EPIC 246471491</td><td>1515</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 97658c</td><td>HD 97658</td><td>69</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>HD 260655c</td><td>HD 260655</td><td>32</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-1708b-i</td><td>Kepler-1708</td><td>5690</td><td>Hydrogen, Methane</td></tr>
+            <tr><td>TOI-1231b</td><td>TOI-1231</td><td>90</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-132c</td><td>TOI-132</td><td>186</td><td>Methane, Oxygen</td></tr>
+            <tr><td>HIP 116454b</td><td>HIP 116454</td><td>200</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 39091c</td><td>HD 39091</td><td>59</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1266b</td><td>TOI-1266</td><td>120</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-1652c</td><td>Kepler-1652</td><td>831</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-22d</td><td>Kepler-22</td><td>620</td><td>Oxygen, Methane, Water</td></tr>
+            <tr><td>TOI-561d</td><td>TOI-561</td><td>280</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-47c</td><td>Kepler-47</td><td>3400</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-178e</td><td>TOI-178</td><td>205</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 3323b</td><td>GJ 3323</td><td>17</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1468c</td><td>TOI-1468</td><td>438</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 110067b</td><td>HD 110067</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-155d</td><td>K2-155</td><td>267</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-138c</td><td>Kepler-138</td><td>929</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 191939c</td><td>HD 191939</td><td>168</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-36c</td><td>K2-36</td><td>135</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-69b</td><td>WASP-69</td><td>163</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1649d</td><td>Kepler-1649</td><td>301</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>TOI-700e</td><td>TOI-700</td><td>101.5</td><td>Water, Carbon Dioxide</td></tr>
+            <tr><td>HD 219134g</td><td>HD 219134</td><td>21</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-140b</td><td>K2-140</td><td>633</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>WASP-190b</td><td>WASP-190</td><td>1743</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ Pc-06b</td><td>GJ Pc-06</td><td>25</td><td>Methane, Oxygen</td></tr>
+            <tr><td>Kepler-1410b</td><td>Kepler-1410</td><td>1500</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1452b</td><td>TOI-1452</td><td>98</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>WASP-117b</td><td>WASP-117</td><td>800</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-776c</td><td>TOI-776</td><td>120</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LHS 1140c</td><td>LHS 1140</td><td>49</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 136352b</td><td>HD 136352</td><td>57</td><td>Iron, Silicates</td></tr>
+            <tr><td>K2-3b</td><td>K2-3</td><td>147</td><td>Iron, Silicates</td></tr>
+            <tr><td>GJ 486c</td><td>GJ 486</td><td>26.3</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1759b</td><td>TOI-1759</td><td>280</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>L 98-59b</td><td>L 98-59</td><td>35</td><td>Iron, Silicates</td></tr>
+            <tr><td>K2-93c</td><td>K2-93</td><td>327</td><td>Methane, Oxygen</td></tr>
+            <tr><td>HD 191939d</td><td>HD 191939</td><td>168</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TRAPPIST-1d</td><td>TRAPPIST-1</td><td>39</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>LP 791-18c</td><td>LP 791-18</td><td>86</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-2180b</td><td>TOI-2180</td><td>379</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HR 858b</td><td>HR 858</td><td>105</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-90i</td><td>Kepler-90</td><td>2545</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 110067c</td><td>HD 110067</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-178c</td><td>TOI-178</td><td>205</td><td>Iron, Silicates</td></tr>
+            <tr><td>Gl 486b</td><td>Gl 486</td><td>26</td><td>Iron, Silicates</td></tr>
+            <tr><td>K2-18-F</td><td>K2-18</td><td>124</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-1649e</td><td>Kepler-1649</td><td>301</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1670b</td><td>TOI-1670</td><td>1275</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-111b</td><td>K2-111</td><td>702</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 110067d</td><td>HD 110067</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-266c</td><td>K2-266</td><td>470</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-836c</td><td>TOI-836</td><td>219</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-283b</td><td>Kepler-283</td><td>1705</td><td>Iron, Silicates</td></tr>
+            <tr><td>GJ 1061c</td><td>GJ 1061</td><td>12</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1807b</td><td>TOI-1807</td><td>107</td><td>Iron, Silicates</td></tr>
+            <tr><td>HR 858d</td><td>HR 858</td><td>105</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-700b</td><td>TOI-700</td><td>101.5</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 191939b</td><td>HD 191939</td><td>168</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1652d</td><td>Kepler-1652</td><td>832</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1246d</td><td>TOI-1246</td><td>737</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LP 791-18b</td><td>LP 791-18</td><td>86</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-11g</td><td>Kepler-11</td><td>2150</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TRAPPIST-1f</td><td>TRAPPIST-1</td><td>39</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-178d</td><td>TOI-178</td><td>205</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 3167d</td><td>HD 3167</td><td>150</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1649b</td><td>Kepler-1649</td><td>302</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 110067e</td><td>HD 110067</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-561c</td><td>TOI-561</td><td>280</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>YZ Ceti c</td><td>YZ Ceti</td><td>12</td><td>Iron, Silicates</td></tr>
+            <tr><td>HD 15337d</td><td>HD 15337</td><td>150</td><td>Methane, Oxygen</td></tr>
+            <tr><td>Kepler-62e</td><td>Kepler-62</td><td>990</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>Kepler-160e</td><td>Kepler-160</td><td>3140</td><td>Water, Methane, Oxygen</td></tr>
+            <tr><td>HD 75732e</td><td>HD 75732</td><td>41</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1246b</td><td>TOI-1246</td><td>737</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-776b</td><td>TOI-776</td><td>120</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-138d</td><td>K2-138</td><td>600</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 219134d</td><td>HD 219134</td><td>21</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 1061b</td><td>GJ 1061</td><td>12</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-20e</td><td>Kepler-20</td><td>929</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-452d</td><td>Kepler-452</td><td>1402</td><td>Methane, Oxygen, Nitrogen</td></tr>
+            <tr><td>TOI-421d</td><td>TOI-421</td><td>245</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-178g</td><td>TOI-178</td><td>205</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>YZ Ceti d</td><td>YZ Ceti</td><td>12</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-1661b</td><td>Kepler-1661</td><td>1600</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>HD 110067f</td><td>HD 110067</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 273b</td><td>GJ 273</td><td>12</td><td>Iron, Silicates</td></tr>
+            <tr><td>WASP-166c</td><td>WASP-166</td><td>300</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TOI-1246e</td><td>TOI-1246</td><td>737</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-138f</td><td>K2-138</td><td>600</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-836b</td><td>TOI-836</td><td>219</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HIP 67522b</td><td>HIP 67522</td><td>415</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>L 98-59d</td><td>L 98-59</td><td>35</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-451d</td><td>TOI-451</td><td>400</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 357e</td><td>GJ 357</td><td>31</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-1468b</td><td>TOI-1468</td><td>438</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-24b</td><td>K2-24</td><td>518</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-90h</td><td>Kepler-90</td><td>2545</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 110067g</td><td>HD 110067</td><td>100</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-36b</td><td>K2-36</td><td>135</td><td>Iron, Silicates</td></tr>
+            <tr><td>L 168-9c</td><td>L 168-9</td><td>81</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TOI-561e</td><td>TOI-561</td><td>280</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-138c</td><td>K2-138</td><td>600</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-125d</td><td>TOI-125</td><td>373</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LP 890-9b</td><td>LP 890-9</td><td>105</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-296c</td><td>Kepler-296</td><td>737</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-90c</td><td>Kepler-90</td><td>2545</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-1652e</td><td>Kepler-1652</td><td>832</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>TOI-125b</td><td>TOI-125</td><td>373</td><td>Iron, Silicates</td></tr>
+            <tr><td>K2-138b</td><td>K2-138</td><td>600</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1064c</td><td>TOI-1064</td><td>246</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>HD 136352d</td><td>HD 136352</td><td>57</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>YZ Ceti b</td><td>YZ Ceti</td><td>12</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1064b</td><td>TOI-1064</td><td>246</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>K2-2b</td><td>K2-2</td><td>400</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-90d</td><td>Kepler-90</td><td>2545</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Wolf 503b</td><td>Wolf 503</td><td>145</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-138b</td><td>Kepler-138</td><td>929</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-270d</td><td>TOI-270</td><td>73</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-20c</td><td>Kepler-20</td><td>929</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>GJ 3470c</td><td>GJ 3470</td><td>30</td><td>Methane, Oxygen</td></tr>
+            <tr><td>TOI-1075b</td><td>TOI-1075</td><td>200</td><td>Iron, Silicates</td></tr>
+            <tr><td>TOI-1130b</td><td>TOI-1130</td><td>525</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-90e</td><td>Kepler-90</td><td>2545</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Gliese 486c</td><td>Gliese 486</td><td>26</td><td>Methane, Oxygen, Water</td></tr>
+            <tr><td>Kepler-296d</td><td>Kepler-296</td><td>737</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1736c</td><td>TOI-1736</td><td>364</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-186d</td><td>Kepler-186</td><td>582</td><td>Iron, Silicates</td></tr>
+            <tr><td>GJ 357f</td><td>GJ 357</td><td>31</td><td>Methane, Oxygen</td></tr>
+            <tr><td>Kepler-442c</td><td>Kepler-442</td><td>1206</td><td>Methane, Oxygen</td></tr>
+            <tr><td>HD 28109b</td><td>HD 28109</td><td>130</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-90f</td><td>Kepler-90</td><td>2545</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1736b</td><td>TOI-1736</td><td>364</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>LTT 9779b</td><td>LTT 9779</td><td>260</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-20d</td><td>Kepler-20</td><td>929</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>TOI-1634c</td><td>TOI-1634</td><td>114</td><td>Methane, Oxygen</td></tr>
+            <tr><td>Kepler-20b</td><td>Kepler-20</td><td>929</td><td>Iron, Silicates</td></tr>
+            <tr><td>Kepler-90g</td><td>Kepler-90</td><td>2545</td><td>Hydrogen, Helium</td></tr>
+            <tr><td>Kepler-186b</td><td>Kepler-186</td><td>582</td><td>Iron, Silicates</td></tr>
+        </table>
+    </div>
+</body>
+</html>
