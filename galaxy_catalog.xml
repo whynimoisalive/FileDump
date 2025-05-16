@@ -1,0 +1,422 @@
+<stars>
+  <star>
+    <catalog_id>2457</catalog_id>
+    <name>Proxima Centauri</name>
+    <x_coord>-3.0826</x_coord>
+    <y_coord>-0.5746</y_coord>
+    <z_coord>0.1892</z_coord>
+  </star>
+  <star>
+    <catalog_id>3982</catalog_id>
+    <name>Barnard's Star</name>
+    <x_coord>-3.0311</x_coord>
+    <y_coord>-0.5298</y_coord>
+    <z_coord>0.1954</z_coord>
+  </star>
+  <star>
+    <catalog_id>1254</catalog_id>
+    <name>Wolf 359</name>
+    <x_coord>-2.8619</x_coord>
+    <y_coord>0.4752</y_coord>
+    <z_coord>-0.1549</z_coord>
+  </star>
+  <star>
+    <catalog_id>5874</catalog_id>
+    <name>Lalande 21185</name>
+    <x_coord>-2.1181</x_coord>
+    <y_coord>0.5109</y_coord>
+    <z_coord>0.1954</z_coord>
+  </star>
+  <star>
+    <catalog_id>7120</catalog_id>
+    <name>Sirius</name>
+    <x_coord>-1.6335</x_coord>
+    <y_coord>-1.1328</y_coord>
+    <z_coord>-0.0978</z_coord>
+  </star>
+  <star>
+    <catalog_id>9237</catalog_id>
+    <name>Luyten 726-8</name>
+    <x_coord>-1.5823</x_coord>
+    <y_coord>-0.1437</y_coord>
+    <z_coord>0.2591</z_coord>
+  </star>
+  <star>
+    <catalog_id>1021</catalog_id>
+    <name>Ross 154</name>
+    <x_coord>-1.4051</x_coord>
+    <y_coord>-0.9574</y_coord>
+    <z_coord>-0.3415</z_coord>
+  </star>
+  <star>
+    <catalog_id>3265</catalog_id>
+    <name>Ross 248</name>
+    <x_coord>-1.3965</x_coord>
+    <y_coord>0.2195</y_coord>
+    <z_coord>1.4723</z_coord>
+  </star>
+  <star>
+    <catalog_id>8532</catalog_id>
+    <name>Epsilon Eridani</name>
+    <x_coord>-1.0950</x_coord>
+    <y_coord>-0.8156</y_coord>
+    <z_coord>-0.6248</z_coord>
+  </star>
+  <star>
+    <catalog_id>6543</catalog_id>
+    <name>Lacaille 9352</name>
+    <x_coord>-0.9582</x_coord>
+    <y_coord>-0.9146</y_coord>
+    <z_coord>-0.3598</z_coord>
+  </star>
+  <star>
+    <catalog_id>2730</catalog_id>
+    <name>Ross 128</name>
+    <x_coord>-0.8921</x_coord>
+    <y_coord>-0.1824</y_coord>
+    <z_coord>0.4203</z_coord>
+  </star>
+  <star>
+    <catalog_id>4213</catalog_id>
+    <name>EZ Aquarii</name>
+    <x_coord>-0.7864</x_coord>
+    <y_coord>-0.4063</y_coord>
+    <z_coord>-0.1915</z_coord>
+  </star>
+  <star>
+    <catalog_id>9087</catalog_id>
+    <name>61 Cygni</name>
+    <x_coord>-0.6473</x_coord>
+    <y_coord>0.8168</y_coord>
+    <z_coord>0.3049</z_coord>
+  </star>
+  <star>
+    <catalog_id>5142</catalog_id>
+    <name>Procyon</name>
+    <x_coord>-0.5754</x_coord>
+    <y_coord>-1.0207</y_coord>
+    <z_coord>0.2928</z_coord>
+  </star>
+  <star>
+    <catalog_id>7892</catalog_id>
+    <name>Struve 2398</name>
+    <x_coord>-0.5237</x_coord>
+    <y_coord>0.8458</y_coord>
+    <z_coord>0.1497</z_coord>
+  </star>
+  <star>
+    <catalog_id>4637</catalog_id>
+    <name>Groombridge 34</name>
+    <x_coord>-0.4862</x_coord>
+    <y_coord>0.7135</y_coord>
+    <z_coord>0.3659</z_coord>
+  </star>
+  <star>
+    <catalog_id>1895</catalog_id>
+    <name>Epsilon Indi</name>
+    <x_coord>-0.4726</x_coord>
+    <y_coord>-0.1561</y_coord>
+    <z_coord>-0.6675</z_coord>
+  </star>
+  <star>
+    <catalog_id>3521</catalog_id>
+    <name>DX Cancri</name>
+    <x_coord>-0.3649</x_coord>
+    <y_coord>-0.1946</y_coord>
+    <z_coord>0.1071</z_coord>
+  </star>
+  <star>
+    <catalog_id>6031</catalog_id>
+    <name>Tau Ceti</name>
+    <x_coord>-0.3142</x_coord>
+    <y_coord>-0.5214</y_coord>
+    <z_coord>-0.3248</z_coord>
+  </star>
+  <star>
+    <catalog_id>7634</catalog_id>
+    <name>GJ 1061</name>
+    <x_coord>-0.2589</x_coord>
+    <y_coord>-0.1975</y_coord>
+    <z_coord>-0.3517</z_coord>
+  </star>
+  <star>
+    <catalog_id>2146</catalog_id>
+    <name>YZ Ceti</name>
+    <x_coord>-0.2479</x_coord>
+    <y_coord>-0.4681</y_coord>
+    <z_coord>-0.3236</z_coord>
+  </star>
+  <star>
+    <catalog_id>8910</catalog_id>
+    <name>Luyten's Star</name>
+    <x_coord>-0.2437</x_coord>
+    <y_coord>-0.3148</y_coord>
+    <z_coord>0.2794</z_coord>
+  </star>
+  <star>
+    <catalog_id>3629</catalog_id>
+    <name>Teegarden's Star</name>
+    <x_coord>-0.2391</x_coord>
+    <y_coord>0.0346</y_coord>
+    <z_coord>0.0581</z_coord>
+  </star>
+  <star>
+    <catalog_id>5017</catalog_id>
+    <name>Kapteyn's Star</name>
+    <x_coord>-0.1917</x_coord>
+    <y_coord>-0.1371</y_coord>
+    <z_coord>-0.3048</z_coord>
+  </star>
+  <star>
+    <catalog_id>7125</catalog_id>
+    <name>Lacaille 8760</name>
+    <x_coord>-0.1637</x_coord>
+    <y_coord>-0.3819</y_coord>
+    <z_coord>-0.2587</z_coord>
+  </star>
+  <star>
+    <catalog_id>9345</catalog_id>
+    <name>Kruger 60</name>
+    <x_coord>-0.1462</x_coord>
+    <y_coord>0.3427</y_coord>
+    <z_coord>0.0941</z_coord>
+  </star>
+  <star>
+    <catalog_id>2764</catalog_id>
+    <name>DEN 1048-3956</name>
+    <x_coord>-0.1382</x_coord>
+    <y_coord>-0.2839</y_coord>
+    <z_coord>-0.3517</z_coord>
+  </star>
+  <star>
+    <catalog_id>4723</catalog_id>
+    <name>DENIS 1048-39</name>
+    <x_coord>-0.1350</x_coord>
+    <y_coord>-0.2821</y_coord>
+    <z_coord>-0.3492</z_coord>
+  </star>
+  <star>
+    <catalog_id>6852</catalog_id>
+    <name>GJ 674</name>
+    <x_coord>-0.1325</x_coord>
+    <y_coord>-0.2948</y_coord>
+    <z_coord>-0.0581</z_coord>
+  </star>
+  <star>
+    <catalog_id>1279</catalog_id>
+    <name>GJ 687</name>
+    <x_coord>-0.1319</x_coord>
+    <y_coord>0.2354</y_coord>
+    <z_coord>0.3614</z_coord>
+  </star>
+  <star>
+    <catalog_id>3814</catalog_id>
+    <name>GJ 1</name>
+    <x_coord>-0.1239</x_coord>
+    <y_coord>0.0143</y_coord>
+    <z_coord>0.1307</z_coord>
+  </star>
+  <star>
+    <catalog_id>5693</catalog_id>
+    <name>GJ 876</name>
+    <x_coord>-0.1184</x_coord>
+    <y_coord>-0.0821</y_coord>
+    <z_coord>-0.0925</z_coord>
+  </star>
+  <star>
+    <catalog_id>7941</catalog_id>
+    <name>GJ 1002</name>
+    <x_coord>-0.1084</x_coord>
+    <y_coord>-0.2472</y_coord>
+    <z_coord>-0.0826</z_coord>
+  </star>
+  <star>
+    <catalog_id>2368</catalog_id>
+    <name>GJ 1132</name>
+    <x_coord>-0.0684</x_coord>
+    <y_coord>-0.1176</y_coord>
+    <z_coord>0.0197</z_coord>
+  </star>
+  <star>
+    <catalog_id>4158</catalog_id>
+    <name>GJ 3323</name>
+    <x_coord>-0.0679</x_coord>
+    <y_coord>-0.1169</y_coord>
+    <z_coord>0.0189</z_coord>
+  </star>
+  <star>
+    <catalog_id>6219</catalog_id>
+    <name>YZ Canis Minoris</name>
+    <x_coord>-0.0624</x_coord>
+    <y_coord>-0.0798</y_coord>
+    <z_coord>0.0637</z_coord>
+  </star>
+  <star>
+    <catalog_id>8347</catalog_id>
+    <name>GJ 3293</name>
+    <x_coord>-0.0619</x_coord>
+    <y_coord>-0.0783</y_coord>
+    <z_coord>0.0645</z_coord>
+  </star>
+  <star>
+    <catalog_id>1573</catalog_id>
+    <name>GJ 3634</name>
+    <x_coord>-0.0613</x_coord>
+    <y_coord>-0.0791</y_coord>
+    <z_coord>0.0628</z_coord>
+  </star>
+  <star>
+    <catalog_id>3689</catalog_id>
+    <name>GJ 3341</name>
+    <x_coord>-0.0587</x_coord>
+    <y_coord>-0.1043</y_coord>
+    <z_coord>0.0271</z_coord>
+  </star>
+  <star>
+    <catalog_id>5734</catalog_id>
+    <name>GJ 180</name>
+    <x_coord>-0.0581</x_coord>
+    <y_coord>-0.1032</y_coord>
+    <z_coord>0.0285</z_coord>
+  </star>
+  <star>
+    <catalog_id>7468</catalog_id>
+    <name>GJ 422</name>
+    <x_coord>-0.0568</x_coord>
+    <y_coord>-0.0847</y_coord>
+    <z_coord>0.0531</z_coord>
+  </star>
+  <star>
+    <catalog_id>9642</catalog_id>
+    <name>GJ 682</name>
+    <x_coord>-0.0563</x_coord>
+    <y_coord>-0.0839</y_coord>
+    <z_coord>0.0542</z_coord>
+  </star>
+  <star>
+    <catalog_id>2479</catalog_id>
+    <name>GJ 3082</name>
+    <x_coord>-0.0546</x_coord>
+    <y_coord>-0.0917</y_coord>
+    <z_coord>0.0413</z_coord>
+  </star>
+  <star>
+    <catalog_id>4261</catalog_id>
+    <name>GJ 163</name>
+    <x_coord>-0.0541</x_coord>
+    <y_coord>-0.0931</y_coord>
+    <z_coord>0.0395</z_coord>
+  </star>
+  <star>
+    <catalog_id>6325</catalog_id>
+    <name>GJ 3138</name>
+    <x_coord>-0.0537</x_coord>
+    <y_coord>-0.0924</y_coord>
+    <z_coord>0.0407</z_coord>
+  </star>
+  <star>
+    <catalog_id>8429</catalog_id>
+    <name>GJ 3998</name>
+    <x_coord>-0.0521</x_coord>
+    <y_coord>-0.0879</y_coord>
+    <z_coord>0.0467</z_coord>
+  </star>
+  <star>
+    <catalog_id>1685</catalog_id>
+    <name>GJ 3253</name>
+    <x_coord>-0.0513</x_coord>
+    <y_coord>-0.0897</y_coord>
+    <z_coord>0.0437</z_coord>
+  </star>
+  <star>
+    <catalog_id>3742</catalog_id>
+    <name>GJ 3021</name>
+    <x_coord>-0.0507</x_coord>
+    <y_coord>-0.0871</y_coord>
+    <z_coord>0.0483</z_coord>
+  </star>
+  <star>
+    <catalog_id>5847</catalog_id>
+    <name>GJ 3470</name>
+    <x_coord>-0.0502</x_coord>
+    <y_coord>-0.0864</y_coord>
+    <z_coord>0.0478</z_coord>
+  </star>
+  <star>
+    <catalog_id>7583</catalog_id>
+    <name>GJ 3512</name>
+    <x_coord>-0.0496</x_coord>
+    <y_coord>-0.0845</y_coord>
+    <z_coord>0.0516</z_coord>
+  </star>
+  <star>
+    <catalog_id>9752</catalog_id>
+    <name>GJ 3307</name>
+    <x_coord>-0.0492</x_coord>
+    <y_coord>-0.0818</y_coord>
+    <z_coord>0.0546</z_coord>
+  </star>
+  <star>
+    <catalog_id>2593</catalog_id>
+    <name>GJ 3991</name>
+    <x_coord>-0.0486</x_coord>
+    <y_coord>-0.0828</y_coord>
+    <z_coord>0.0531</z_coord>
+  </star>
+  <star>
+    <catalog_id>4378</catalog_id>
+    <name>HD 219134</name>
+    <x_coord>-0.0481</x_coord>
+    <y_coord>0.0639</y_coord>
+    <z_coord>0.0587</z_coord>
+  </star>
+  <star>
+    <catalog_id>6437</catalog_id>
+    <name>HD 40307</name>
+    <x_coord>-0.0476</x_coord>
+    <y_coord>-0.0734</y_coord>
+    <z_coord>0.0623</z_coord>
+  </star>
+  <star>
+    <catalog_id>8541</catalog_id>
+    <name>HD 102365</name>
+    <x_coord>-0.0472</x_coord>
+    <y_coord>-0.0762</y_coord>
+    <z_coord>0.0598</z_coord>
+  </star>
+  <star>
+    <catalog_id>1796</catalog_id>
+    <name>HD 192310</name>
+    <x_coord>-0.0467</x_coord>
+    <y_coord>-0.0748</y_coord>
+    <z_coord>0.0615</z_coord>
+  </star>
+  <star>
+    <catalog_id>3857</catalog_id>
+    <name>HD 85512</name>
+    <x_coord>-0.0462</x_coord>
+    <y_coord>-0.0721</y_coord>
+    <z_coord>0.0634</z_coord>
+  </star>
+  <star>
+    <catalog_id>5961</catalog_id>
+    <name>HD 20794</name>
+    <x_coord>-0.0458</x_coord>
+    <y_coord>-0.0695</y_coord>
+    <z_coord>0.0651</z_coord>
+  </star>
+  <star>
+    <catalog_id>7689</catalog_id>
+    <name>HD 69830</name>
+    <x_coord>-0.0453</x_coord>
+    <y_coord>-0.0674</y_coord>
+    <z_coord>0.0671</z_coord>
+  </star>
+  <star>
+    <catalog_id>9864</catalog_id>
+    <name>HD 154345</name>
+    <x_coord>-0.0449</x_coord>
+    <y_coord>-0.0656</y_coord>
+    <z_coord>0.0686</z_coord>
+  </star>
+</stars>
